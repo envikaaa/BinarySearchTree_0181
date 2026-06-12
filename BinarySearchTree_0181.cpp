@@ -31,6 +31,8 @@ public:
 
     //membuat prosedur insert
     void insert(string element) {
+        //memberi nilai untuk setiap object yang berada di dalam prosedur insert
+        Node* newNode = new Node(element, nullptr, nullptr);
         
     }
 }
