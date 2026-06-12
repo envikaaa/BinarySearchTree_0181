@@ -30,5 +30,7 @@ public:
     }
 
     //membuat prosedur insert
-    
+    void insert(string element) {
+        
+    }
 }
