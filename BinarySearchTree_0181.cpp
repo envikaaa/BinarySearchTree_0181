@@ -43,7 +43,8 @@ public:
 
         //membuat conditional statement
         if (parent == nullptr) {
-            
+            ROOT = newNode;
+            return;
         }
     }
 }
