@@ -21,5 +21,6 @@ public:
 
 //membuat class binaryTree
 class BinaryTree {
-    
+public:
+    Node* ROOT;
 }
