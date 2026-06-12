@@ -9,4 +9,9 @@ public:
     string info;
     Node* leftChild;
     Node* rightChild;
+
+    //membuat constructor untuk class node
+    Node(string i, Node* 1, Node* r) {
+        
+    }
 }
