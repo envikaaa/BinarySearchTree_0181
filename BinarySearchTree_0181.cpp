@@ -17,4 +17,9 @@ public:
         lefChild = 1;
         rightChild = r;
     }
+};
+
+//membuat class binaryTree
+class BinaryTree {
+    
 }
