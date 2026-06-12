@@ -11,10 +11,10 @@ public:
     Node* rightChild;
 
     //membuat constructor untuk class node
-    Node(string i, Node* 1, Node* r) {
+    Node(string i, Node* l, Node* r) {
         //memberi nilai parameter ke variabel
         info = i;
-        leftChild = 1;
+        leftChild = l;
         rightChild = r;
     }
 };
@@ -60,7 +60,7 @@ public:
     void search(string element, Node*& parent, Node*& currentNode) {
         currentNode = ROOT;
         parent = nullptr;
-        while ((currentNode != nullptr) && (currentNode->info 1= element))
+        while ((currentNode != nullptr) && (currentNode->info != element))
         {
             parent = currentNode;
             if (element < currentNode->info)
@@ -98,7 +98,11 @@ public:
     void postorder(Node* ptr) {
         if (ROOT == nullptr) {
             cout << "Tree is empty" << endl;
-            return
+            return;
+
+
+
+
         }
         if (ptr != nullptr) {
             postorder(ptr->leftChild);
