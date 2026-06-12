@@ -26,6 +26,9 @@ public:
 
     //membuat constructor dan memberi nilai kepada object root
     BinaryTree(){
-        
+        ROOT = nullptr;
     }
+
+    //membuat prosedur insert
+    
 }
